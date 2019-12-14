@@ -1,9 +1,103 @@
 <!DOCTYPE html>
 <html>
-<head>
- <title></title>
-</head>
-<body>
-  hi
-</body>
+  <head>
+    <title>Portfolio</title>
+
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      .achyut {
+        border-radius: 10000px;
+        padding-left: 10px;
+      }
+      body {
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+      nav {
+        padding-left: 10px;
+        display: flex;
+        width: 100%;
+
+        justify-content: flex-start;
+        align-items: center;
+      }
+      nav ul {
+        padding-left: 20px;
+        display: flex;
+        width: 100%;
+        list-style: none;
+        justify-content: flex-end;
+      }
+      nav a {
+        text-decoration: none;
+        text-transform: uppercase;
+        padding-right: 40px;
+        /* color: goldenrod; */
+      }
+      button {
+        margin-left: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container mx-auto">
+      <nav class="bg-gray-200 h-16">
+        <ul class="text-black font-bold text-lg">
+          <li>
+            <a href="#"><i>Home</i></a>
+          </li>
+          <li>
+            <a href="#"><i>Contact</i></a>
+          </li>
+          <li>
+            <a href="#"><i>Skills</i></a>
+          </li>
+          <li>
+            <a href="#"><i>Family</i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="flex mt-6">
+        <div class="w-1/2">
+          <h1 class="text-5xl font-semibold pl-3">
+            Aayush Adhikari
+          </h1>
+          <img
+            class="achyut"
+            src="https://i.pinimg.com/236x/f1/17/f4/f117f4bd89da259f1d08fe94bc8bf5fa--avatar-durarara.jpg"
+          />
+          <br />
+
+          <button class="bg-red-700 p-2 text-white">
+            <a href="/resume.txt">Download Resume</a>
+          </button>
+        </div>
+        <div class="w-1/2 pl-12">
+          <p class="text-2xl">
+            Hi,I am Aayush Adhikari.I am a student of Galaxy Public School.I
+            study in Class 7.I am also a web designer.
+          </p>
+          <br />
+          <h2>Here are my details:</h2>
+          <br />
+          <ul class="">
+            <li class="mb-2">Age : 13</li>
+            <li class="mb-2">Nationality : Nepali</li>
+            <li class="mb-2">Address : Lazimpat</li>
+            <li class="mb-2">Phone : 9808211083</li>
+            <li class="mb-2">Email : deusxvis@gmail.com</li>
+            <li class="mb-2">Website : aayushadhikari.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="w-full border border-blue-400 border-b-0 mx-10 my-5"></div>
+    </div>
+  </body>
 </html>
