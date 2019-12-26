@@ -2,6 +2,10 @@
 <html>
   <head>
     <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
 
     <link
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
@@ -12,6 +16,14 @@
       .achyut {
         border-radius: 10000px;
         padding-left: 10px;
+      }
+      h1{
+           font-size: large;
+           font-weight: bolder;
+      }
+      .para{
+              text-align: center;
+        <!--This is in the bottowm of body-->
       }
       body {
         padding-right: 10px;
@@ -37,21 +49,26 @@
         padding-right: 40px;
         /* color: goldenrod; */
       }
+      p {
+        line-height: 2;
+        text-shadow: 1px 1px black;
+      }
+      #special {
+        font-family: "Audiowide";
+         line-height: 3;
+      }
     </style>
   </head>
 
   <body>
     <div class="container mx-auto">
       <nav class="bg-white h-16">
-        <p class="text-2xl font-semibold uppercase tracking-widest">
+        <p class="text-3xl font-semibold uppercase tracking-widest">
           Portfolio
         </p>
         <ul class="text-black font-semibold text-lg">
           <li>
             <a href="#"><i>Home</i></a>
-          </li>
-          <li>
-            <a href="1contact.html"><i>Contact</i></a>
           </li>
           <li>
             <a href=""><i>Skills</i></a>
@@ -64,7 +81,7 @@
 
       <div class="flex mt-12">
         <div class="w-1/2 flex flex-col  items-center">
-          <h1 class="text-4xl font-semibold pl-3">
+          <h1 class="text-4xl font-bold pl-3">
             Aayush Adhikari
           </h1>
           <img
@@ -80,27 +97,26 @@
           </button>
         </div>
         <div
-          class="w-1/2 pl-12 border border-t-0 border-r-0 border-b-0 border-blue-200"
+          class="w-1/2 pl-12 border border-t-0 border-r-0 border-b-0 border-blue"
         >
-          <p class="text-2xl">
-            Hi,I am Aayush Adhikari. I am a student of Galaxy Public School. I
-            study in Class 7. I am also a web designer.
+          <p class="text-2xl pl-2">
+            Hello,<br />I am Aayush Adhikari.<br />
+            I am a student of Galaxy Public School. <br />I study in Class 7.
+            <br />I am also a web designer.<br />I am 13 years old.
           </p>
-          <br />
-          <h2>Here are my details:</h2>
-          <br />
-          <ul class="">
-            <li class="mb-2">Age : 13</li>
-            <li class="mb-2">Nationality : Nepali</li>
-            <li class="mb-2">Address : Lazimpat</li>
-            <li class="mb-2">Phone : +977 9808211083</li>
-            <li class="mb-2">Email : deusxvis@gmail.com</li>
-            <li class="mb-2">Website : aayushadhikari.com</li>
-          </ul>
         </div>
       </div>
 
-      <div class="w-full border border-blue-400 border-b-0 mx-10 my-5"></div>
+      <div class="w-full border border-blue-600 border-b-0 mx-10 my-5"></div>
+    </div>
+    <div class="para">
+      <h1>
+        My Details
+      </h1>
+      <p id="special">
+        deusxvis@gmail.com <br />@+977 9808211083<br />Twitter-@deusxvis<br />facebook-Aayush
+        Adhikari<br />
+      </p>
     </div>
   </body>
 </html>
