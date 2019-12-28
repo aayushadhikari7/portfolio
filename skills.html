@@ -1,29 +1,98 @@
-<html>
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
+
+<!-- saved from url=(0033)http://127.0.0.1:5500/skills.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="./skills_files/tailwind.min.css" rel="stylesheet">
     <style>
       * {
         background: #f2f2f2;
+        text-align: center;
+      }
+      .wee{
+        display:flex;
+        flex-direction: row;
+        margin: auto;
+        width: auto;
+        justify-content:center;
+      
       }
       ul {
         list-style: none;
+        padding-left: 30px;
+        font-weight: 900;
+        font-size: large;
+      }
+      li{
+
+        text-align:center;
+      }
+      nav {
+        
+        text-decoration: none;
+        padding-left: 10px;
+        display: flex;
+        flex: 1;
+        background-color: #f2f2f2;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      nav ul {
+        text-decoration: none;
+        padding-left: 20px;
+        display: flex;
+        width: 100%;
+        list-style: none;
+        justify-content: flex-end;
+      }
+      nav a {
+        text-decoration: none;
+        padding-right: 40px;
+        /* color: goldenrod; */
+      }
+      nav a :hover{
+
+        text-decoration: none;
       }
     </style>
   </head>
   <body>
+    <div class=" mx-0 my-0">
+      <nav class="h-16">
+        <p class="text-3xl font-semibold uppercase tracking-widest">
+          Portfolio
+        </p>
+        <ul class="text-black font-semibold text-lg">
+          <li>
+            <a href="http://127.0.0.1:5500/index.html" class="hover:no-underline"><i>Home</i></a>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:5500/skills.html" class="hover:no-underline"><i>Skills</i></a>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:5500/family.html" class="hover:no-underline"><i>Family</i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div>
-      <h1>Skills</h1>
-      <a class="btn btn-danger" href="index.html">Go Back To Home</a>
+      <h1 class="text-3xl font-semibold">Skills</h1>
+      <br>
+      
+      
     </div>
     <ul>
-      <li>....</li>
-      <li>....</li>
-      <li>....</li>
+      <li>Basketball</li>
+      <li>Programming</li>
+      <li>Leadership</li>
+      <li>Video Editing</li>
+      <li>Web Designing</li>
+      <li>Quick Learner</li>
+      <br>
     </ul>
-  </body>
-</html>
+        <div class="wee">
+          <img width="450" src="./skills_files/images.jpg">
+          <img width="450" src="./skills_files/jake.jpg">
+          <img width="450" src="./skills_files/phoyto.jpg">
+        </div>
+  
+
+</body></html>
