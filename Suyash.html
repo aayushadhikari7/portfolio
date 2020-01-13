@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="./Suyash_files/tailwind.min.css" rel="stylesheet">
+<style>
+#ee{
+
+    border-radius:89%
+}
+#ad{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+*{
+    text-decoration: none;
+    text-transform: none;
+}
+</style>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script><title>
+Suyash
+</title></head>
+
+<body><div class="text-black">
+
+  <img id="ad" class="object-cover" src="./Suyash_files/hi.jpg">
+</div>
+    <div class="top-left">
+
+        <h1 class="text-4xl font-bold text-black">
+            Suyash Dhakal
+        </h1>
+        <img id="ee" class="p1-1 ml-12" src="./Suyash_files/su.jpg" width="150">
+        <p class="text-black text-left text-4xl">
+
+                    I am Suyash Dhakal.
+                    <br>
+                    I am 10 years old.
+                    <br>
+                    I study in Meridian Intl School.
+                    <br>
+                    I study in class 4.
+                    <br>       
+                    I am interested in sports.
+                    <br>
+    </p>
+    
+</div>
+    
+
+
+
+
+
+
+
+
+</body></html>
