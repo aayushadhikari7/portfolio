@@ -13,7 +13,11 @@
       #ad {
         opacity: 0.5;
         filter: alpha(opacity=50);
-        background-attachment: fixed;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        border: solid 13px lightskyblue;
+        border: solid 11px lightblue;
       }
       .container {
         position: relative;
@@ -28,6 +32,7 @@
       * {
         text-decoration: none;
         text-transform: none;
+        list-style: none;
       }
     </style>
     <title>
@@ -37,7 +42,7 @@
 
   <body>
     <div class="text-black">
-      <img id="ad" class="object-fill" src="hi.jpg" />
+      <img id="ad" class="object-cover" src="hi.jpg" />
     </div>
     <div class="top-left">
       <h1 class="text-4xl font-bold text-black">
