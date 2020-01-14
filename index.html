@@ -52,6 +52,7 @@
             nav a {
               text-decoration: none;
               padding-right: 40px;
+
               /* color: goldenrod; */
             }
             p {
@@ -63,6 +64,7 @@
                line-height: 3;
             }
             *{
+
               background:#EDF2F7
 
       ;
@@ -96,8 +98,8 @@
               color: white;
               border:solid 1px black;
       }
-      #dropdown{
-
+      #dropdown a:hover{
+        background-color:lightgrey;
       }
     </style>
     <script>
@@ -111,7 +113,7 @@
   <body>
     <div class="container mx-auto">
       <nav class="h-16">
-        <p class="text-3xl font-semibold uppercase tracking-widest">
+        <p id="yo" class="text-3xl font-semibold uppercase tracking-widest">
           Portfolio
         </p>
         <ul class="text-black font-semibold text-lg">
@@ -128,7 +130,7 @@
             <button onClick="show()"><i>Other Related Websites</i></button>
             <div
               id="dropdown"
-              class="hover:flex hover:flex-col border w-48 absolute"
+              class="hover:flex hover:flex-col w-48 absolute pr-0 pl-0 ml-4"
             >
               <a href="Suyash.html">
                 Cousin's Website
